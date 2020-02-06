@@ -50,9 +50,9 @@ try:
 
     #compare hashes
     if newHash == savedHash:
-        print("correct")
+        print("The passwords match.")
     else:
-        print("incorrect")
+        print("The passwords did not match.")
         
 finally:
     connection.close()
